@@ -9,6 +9,14 @@ body{
     color: white;
 }
 
+a {
+    color: #A8A618;
+}
+
+a:hover {
+    color: grey;
+}
+
 .pos-f-t ul a:hover{
     color: yellow;
     text-decoration: none;
@@ -38,7 +46,17 @@ h1 {
 #aboutImage{
     height: 200px;
 }
+.media img {
+    height: 150px;
+    width: 250px;
+    padding-bottom: 10px;
+}
 
+#title {
+    font-style: italic;
+    padding-top: 75px;
+
+}
 @media screen and (max-width: 720px){
 
     h1 {
