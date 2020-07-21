@@ -31,7 +31,11 @@ h1 {
     font-style: italic;
 }
 
-.col-sm-1 img{
+.homeDiamonds{
+    height: 200px;
+}
+
+#aboutImage{
     height: 200px;
 }
 
@@ -41,8 +45,8 @@ h1 {
         font-size: 30px;
         }
     
-    .col-sm-1 img{
-        float: center;
+    .homeDiamonds{
+    
         height: 100px;
         padding-bottom: 20px;
     }
