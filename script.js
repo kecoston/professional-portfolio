@@ -8,7 +8,9 @@ for (var i = 0; i < webBtnLabel.length; i++) {
 webBtnEl = webBtnLabel[i]   
 
 var categoryButton = $("<button>").text(webBtnEl);
-categoryButton.addClass("button3 a.button3:hover a.button3:active");
+categoryButton.addClass("button3");
+categoryButton.attr("id", "button-"+ webBtnEl);
+
 
 
 
@@ -17,14 +19,15 @@ $("#web-buttons").append(categoryButton)
 
 
 //Graphic Design 
-var webBtnLabel = ["Brochure Design", "Web Design", "Publications", "Logo Design", "Posters"];
+var graphBtnLabel = ["Brochure Design", "Web Design", "Publications", "Logo Design", "Posters"];
 
-for (var i = 0; i < webBtnLabel.length; i++) {
+for (var i = 0; i < graphBtnLabel.length; i++) {
 
-webBtnEl = webBtnLabel[i]   
+graphBtnEl = graphBtnLabel[i]   
 
-var categoryButton = $("<button>").text(webBtnEl);
-categoryButton.addClass("button3 a.button3:hover a.button3:active");
+var categoryButton = $("<button>").text(graphBtnEl);
+categoryButton.addClass('button3');
+categoryButton.attr("id", "button-"+ graphBtnEl);
 
 
 
