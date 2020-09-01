@@ -14,6 +14,7 @@ header {
 
 .row{
     width: 100%;
+    align-content: center;
 }
 
 h1 {
@@ -156,7 +157,8 @@ a.button3:active {
 
 #web-development{
     position: sticky;
-    height: 650px;
+    height: auto;
+    padding-bottom: 100px;
     width: 100%;
     background-image: url(images/background-images/background-green.jpg);
     background-repeat: no-repeat;
@@ -178,9 +180,38 @@ a.button3:active {
 
 #web-buttons {
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 25px;
 
 }
+
+#web-examples{
+    position: relative;
+    height: 700px;
+    width: 100%;
+    margin-top: 45px;
+    margin-left: 0px;
+    background-color:  #5c9689;
+}
+
+.card {
+    background-color: white;
+    height: 545px;
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.card-title {
+    font-style: italic;
+    font-weight: bolder;
+    margin-top: 20px;
+    color:  #5c9689;;
+  
+}
+
+.card .p{
+    color:  #5c9689;;}
 
 #graphic-design{
     position: sticky;
@@ -205,9 +236,3 @@ a.button3:active {
     margin-top: 100px;
 }
 
-    @media all and (max-width:30em){
-         a.button2 {
-            display:block;
-            margin:0.4em auto;
-         }
-        }

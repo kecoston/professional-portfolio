@@ -1,154 +1,69 @@
 
+// Web Development 
 
-//Web Development Buttons
+//Html CSS cards 
+var htmlCssProjects = [
+    {   projectName: "Moodii",
+        imageUrl:"images/portfolio-img/moodii.jpg",
+        description: "This application will provide you with movie suggestions based on your current mood. ",
+        liveSite: "https://fullstackzack.github.io/moodii/"
+    },
+    {
+        projectName:"Code Refractor",
+        imageUrl: "images/portfolio-img/horiseon-cover.jpg", 
+        description: "Having been provided with existing code, for this assignment, I was tasked with refactoring the code to create a codebase that follows accessibility standards, to help optimize the site for search engines.",
+        liveSite: "https://kecoston.github.io/Horiseon-Homepage/"
+    },
+    {
+        projectName: "Generate Password",
+        imageUrl: "images/portfolio-img/generate-password.jpg",
+        description: "This application generates a random password based on user-selected criteria. The app runs in the browser and features dynamically updated HTML and CSS that is powered by Javascript code. This app is responsive and adapts to multiple screen sizes.",
+        liveSite: "https://kecoston.github.io/generate-password/"
+    },
+    {
+        projectName: "Work Planner",
+        imageUrl: "images/portfolio-img/workhours-planner.jpg",
+        description: "The goal of this assignment was to make a planner that was for the span of the work day. The hours would be highlighted different colors depending on if the hour was past, present, or future. The user would also be able to type in task that would be saved to the local storages, and therefore remain if the browser was refreshed.",
+        liveSite: "https://kecoston.github.io/workhours-planner/"
+    }
+    ]
 
-var webBtnLabel = ["HTML-CSS", "Javascript", "JQuery", "Local-Storage", "API"];
+for (var i = 0; i < htmlCssProjects.length; i++) {
 
-for (var i = 0; i < webBtnLabel.length; i++) {
+varProjectCard = htmlCssProjects [i]
 
-webBtnEl = webBtnLabel[i]   
+var cardEl = $("<div>")
+var cardImage = $("<img>")
+var cardBody = $("<div>")
+var cardTitle = $("<h5>")
+var cardText = $("<p>")
+var cardBtn = $("<button>")
+var col = $("<div>")
 
-var categoryButton = $("<button>").text(webBtnEl);
-categoryButton.addClass("button3 a.button3:hover a.button3:active");
-categoryButton.attr("id", "button-"+ (webBtnLabel[i]));
 
-$("#web-buttons").append(categoryButton)
+cardEl.addClass("card")
+cardImage.addClass("card-img-top")
+cardBody.addClass("card-body")
+cardTitle.addClass("card-title")
+cardText.addClass("p")
+cardBtn.addClass("btn btn-secondary").text("Visit the Live Site")
+col.addClass("col")
+
+cardImage.attr("src", htmlCssProjects[i].imageUrl)
+cardTitle.text(htmlCssProjects[i].projectName)
+cardText.text(htmlCssProjects[i].description)
+cardBtn.attr("href", htmlCssProjects[i].liveSite)
+
+cardEl.append(cardImage, cardTitle, cardText, cardBtn)
+col.append(cardEl)
+$("#web-examples").append(col)
+
 }
 
-//Web Portfolio Display
+$("#web-examples").hide();
 
-function displayWebHtmlOp () {
-    console.log("test")
+$("#html-css-btn").on("click", function(event) {
+   console.log("is this working")
+    $("#web-examples").toggle("slide");
 
-    
-}
-
-function displayWebJavaOp () {
-    console.log("test")
-}
-
-function displayWebJqueryOp () {
-    console.log("test")
-}
-
-function displayWebLocalOp () {
-    console.log("test")
-}
-
-function displayWebApiOp () {
-    console.log("test")
-}
-
-//Web Development Button Events
-$("#button-HTML-CSS").on("click", function(event) {
-    event.preventDefault();
-
-    displayWebHtmlOp();
-
-})
-
-$("#button-Javascript").on("click", function(event) {
-    event.preventDefault();
-
-    displayWebJavaOp();
-
-})
-
-$("#button-JQuery").on("click", function(event) {
-    event.preventDefault();
-
-    displayWebJqueryOp();
-
-})
-
-$("#button-Local-Storage").on("click", function(event) {
-    event.preventDefault();
-
-    displayWebLocalOp();
-
-})
-
-$("#button-API").on("click", function(event) {
-    event.preventDefault();
-
-    displayWebApiOp();
-
-})
-
-
-
-//Graphic Design Buttons 
-
-var graphBtnLabel = ["Brochure-Design", "Web-Design", "Publications", "Logo-Design", "Posters"];
-
-for (var i = 0; i < graphBtnLabel.length; i++) {
-
-graphBtnEl = graphBtnLabel[i]   
-
-var categoryButton = $("<button>").text(graphBtnEl);
-categoryButton.addClass('button3');
-categoryButton.attr("id", "button-"+ graphBtnEl);
-
-
-$("#graphic-buttons").append(categoryButton)
-}
-
-
-//Graphic Design Portfolio Options
-function displayGraphBrochureOp () {
-    console.log("test")
-}
-
-function displayGraphWebOp () {
-    console.log("test")
-}
-
-function displayGraphPubOp () {
-    console.log("test")
-}
-
-function displayGraphLogoOp () {
-    console.log("test")
-}
-
-function displayGraphPostOp () {
-    console.log("test")
-}
-
-
-//Graphic Design Button Events
-$("#button-Brochure-Design").on("click", function(event) {
-    event.preventDefault();
-
-    displayGraphBrochureOp();
-
-})
-
-$("#button-Web-Design").on("click", function(event) {
-    event.preventDefault();
-
-    displayGraphWebOp();
-
-})
-
-$("#button-Publications").on("click", function(event) {
-    event.preventDefault();
-
-    displayGraphPubOp();
-
-})
-
-$("#button-Logo-Design").on("click", function(event) {
-    event.preventDefault();
-
-    displayGraphLogoOp();
-
-})
-
-$("#button-Posters").on("click", function(event) {
-    event.preventDefault();
-
-    displayGraphPostOp();
-
-})
-
+});
