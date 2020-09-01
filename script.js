@@ -9,7 +9,7 @@ for (var i = 0; i < webBtnLabel.length; i++) {
 webBtnEl = webBtnLabel[i]   
 
 var categoryButton = $("<button>").text(webBtnEl);
-categoryButton.addClass("button3");
+categoryButton.addClass("button3 a.button3:hover a.button3:active");
 categoryButton.attr("id", "button-"+ (webBtnLabel[i]));
 
 $("#web-buttons").append(categoryButton)
@@ -19,6 +19,8 @@ $("#web-buttons").append(categoryButton)
 
 function displayWebHtmlOp () {
     console.log("test")
+
+    
 }
 
 function displayWebJavaOp () {

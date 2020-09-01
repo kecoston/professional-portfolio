@@ -23,6 +23,8 @@ h1 {
     font-kerning: normal;
     text-transform: uppercase;
     margin-top: -30px;
+    z-index: 1;
+    position: relative;
 }
 
 h2 {
@@ -38,10 +40,14 @@ h2 {
     height: 275px;
     width: 220px;
     text-shadow: 100px;
+    z-index: 1;
+    position: relative;
 }
 
 #links {
     margin-top: 20px;
+    z-index: 1;
+    position: relative;
 }
 
 
@@ -55,6 +61,8 @@ h2 {
     order: 1;
     z-index: 1;
     opacity: 75%;
+    background-repeat: no-repeat;
+    background-size: auto;
 }
   
 
@@ -108,30 +116,40 @@ margin-top: 100px;
 
 #bio-content{
     align-items: left;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .button3 {
     height: 200px;
     width: 200px;
+    padding-top: 80px;
     border-radius: 50%;
-    border-style: solid;
-    border-color: white;
     background-image: url(images/background-images/abutton3.png);    
+    background: center stretch ;
     color:   white;
     z-index: 2;
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     text-transform: uppercase;
+    text-align: center;
+    transition: all 0.15s;
     margin: 20px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 
 }
 
 a.button3:hover {
-    background-image: url(images/background-images/abutton3.png);
-    border-color: black;
-    color: black;
+    background-color: #5c9689;
+    background-image: none;
+    color: white;
+    text-decoration: none;
+}
+
+a.button3:active {
+    border-color: white;
+    background-image: none;
+    background-color:  #5c9689;
+    color: white;
 
 }
 
@@ -141,6 +159,8 @@ a.button3:hover {
     height: 650px;
     width: 100%;
     background-image: url(images/background-images/background-green.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     order: 2;
     z-index: 3;
 
