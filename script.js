@@ -28,6 +28,7 @@ $("#web-btn").on("click", function(event) {
 
 
 
+ $('.carousel').carousel()
 
 
 // var textWrapper = document.querySelector('.button-title:focus');

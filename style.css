@@ -42,16 +42,17 @@ body {
 #portrait {
     padding-top: 30px;
     padding-left: 75px;
-    width: 60%;
-    height: 60%;
-    object-fit: fill;
+    width: 600px;
+    height: auto;
+    object-fit: cover;
 }
 
 #bio {
     padding-top: 20px;
-    width: 30%;
     font-size: 18px;
     line-height: 30px;
+    width: 40%;
+    font-family: 'Raleway', sans-serif;
 }
 
 h2 {
@@ -69,12 +70,12 @@ h2 {
 
 .summary {
     padding-top: 20px;
+    font-size: 18px;
+    line-height: 30px;
     padding-bottom: 20px;
+
 }
 
-/* .collection {
-    padding:10px, 0px, 10px, 0px;
-}  */
 
 .work {
     padding-top: 50px
@@ -132,3 +133,48 @@ a.button-title .letter:focus {
     display: inline-block;
     line-height: 1em;
   } */
+  @media only screen and (max-width: 1215px) {
+    #bio {
+        padding-top: 20px;
+        font-size: 18px;
+        width: 100%;
+        font-family: 'Raleway', sans-serif;
+
+    }
+
+    #portrait {
+        padding-top: 30px;
+        width: 600px;
+        height: auto;
+        object-fit: cover;
+    }
+
+}
+
+  @media only screen and (max-width: 800px) {
+
+    #bio {
+        padding-top: 20px;
+        font-size: 12px;
+        width: 100%;
+        font-family: 'Raleway', sans-serif;
+
+    }
+
+    #portrait {
+        padding-top: 30px;
+        width: 300px;
+        height: auto;
+        object-fit: cover;
+    }
+    .summary {
+        padding-top: 20px;
+        font-size: 12px;
+        padding-bottom: 20px;
+        font-family: 'Raleway', sans-serif;
+
+    
+    }
+    
+  
+  }
