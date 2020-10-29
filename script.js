@@ -1,29 +1,48 @@
 $("#web-info").hide();
 $("#graphic-info").hide();
 
-
-
-$("#html-css-btn").on("click", function(event) {
-   console.log("is this working")
-    $("#web-examples").toggle("slide");
+$("#graphic-btn").on("click", function(event) {
+   
+   $("#graphic-info").toggle("slide");
+    
+    $("#bio-info").hide();
+    $("#web-info").hide();
 
 });
 
+$("#web-btn").on("click", function(event) {
 
-// Wrap every letter in a span
-var textWrapper = document.querySelector('.ml12');
-textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+    $("#web-info").toggle("slide");
 
-anime.timeline({loop: false})
-  .add({
-    targets: '.ml12 .letter',
-    translateX: [40,0],
-    translateZ: 0,
-    opacity: [0,1],
-    easing: "easeOutExpo",
-    duration: 1200,
-    delay: (el, i) => 500 + 30 * i
- })
+    $("#bio-info").hide();
+     $("#graphic-info").hide();
+ });
+
+ $("#about-btn").on("click", function(event) {
+
+    $("#bio-info").toggle("slide");
+     
+    $("#web-info").hide();
+     $("#graphic-info").hide();
+ });
+
+
+
+
+
+// var textWrapper = document.querySelector('.button-title:focus');
+// textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+// anime.timeline({loop: false})
+//   .add({
+//     targets: '.button-title .letter:focus',
+//     translateX: [40,0],
+//     translateZ: 0,
+//     opacity: [0,1],
+//     easing: "easeOutExpo",
+//     duration: 1200,
+//     delay: (el, i) => 500 + 30 * i
+//  })
  // Transition out 
  //.add({
 //     targets: '.ml12 .letter',

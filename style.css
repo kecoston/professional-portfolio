@@ -42,8 +42,9 @@ body {
 #portrait {
     padding-top: 30px;
     padding-left: 75px;
-    width: 30%;
-    height: auto;
+    width: 60%;
+    height: 60%;
+    object-fit: fill;
 }
 
 #bio {
@@ -53,8 +54,73 @@ body {
     line-height: 30px;
 }
 
+h2 {
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 2em;
+}
 
-.ml12 {
+.piece {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    filter: grayscale(100%);
+}
+
+.summary {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* .collection {
+    padding:10px, 0px, 10px, 0px;
+}  */
+
+.work {
+    padding-top: 50px
+}
+
+
+.button-title {
+    font-weight: 100;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+
+}
+
+a.button-title:hover {
+    text-decoration: none;
+    color: #d4d9ad;
+}
+
+a.button-title:focus {
+    color: white;
+    font-weight: 200;
+    font-size: 9em;
+    margin-right: 200px;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+}
+
+a.button-title .letter:focus {
+    color: white;
+    display: inline-block;
+    line-height: 1em;
+    font-style: normal;
+}
+
+.button-piece:hover {
+    border: #d4d9ad;
+    border-width:10px;
+    border-style: solid;
+    opacity: 20%;
+}
+
+/* .ml12 {
     font-weight: 200;
     font-size: 9em;
     margin-right: 200px;
@@ -65,4 +131,4 @@ body {
   .ml12 .letter {
     display: inline-block;
     line-height: 1em;
-  }
+  } */
