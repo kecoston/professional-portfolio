@@ -10,16 +10,8 @@ div.box {
     color: white;
   }
 
-  div.container {
-      padding: 0px, 0px, 0px, 0px;
-  }
-
-  div.media-body{
-      margin-left: -250px;
-  }
-
   img {
-      width: 200px;
+      width: 150px;
       height: auto;
   }
 
@@ -29,6 +21,71 @@ div.box {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 50px;
+    font-size: 30px;
     font-style: bold;
+    text-transform: uppercase;
+  }
+
+  .btn {
+      margin-left: 10px;
+  }
+
+  p{
+      font-size: 12px;
+      color: black;   
+  }
+
+
+
+  .mt-0 {
+    color:black;
+  }
+
+  @media only screen and (max-width: 992px) {
+
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 30px;
+        font-style: bold;
+        text-transform: uppercase;
+      }
+      .btn {
+        margin-top: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 994px) {
+
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        padding-left: 60px;
+        transform: translate(-50%, -50%);
+        font-size: 30px;
+        font-style: bold;
+        text-transform: uppercase;
+      }
+      .btn {
+        margin-top: 10px;
+    }
+  }
+  @media only screen and (max-width: 576px) {
+
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding-right: 80px;
+        font-size: 30px;
+        font-style: bold;
+        text-transform: uppercase;
+      }
+      .btn {
+        margin-top: 10px;
+    }
   }

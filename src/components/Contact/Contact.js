@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import "./contact.css"
 
 
 
@@ -6,14 +7,18 @@ class Contact extends React.Component {
     render () {
         return (
 
-            <div className="container">
+            <div className="container contact-background">
                 <h1>Contact</h1>
-                <h3>Email: kecoston@gmail.com</h3>
-                <h3><a href="">Linkedin: kecoston</a></h3>
-                <h3><a href="">Github: kecoston</a></h3>
+               <ul> 
+                <li>Email: kecoston@gmail.com</li>
+                <li><a href="https://www.linkedin.com/in/costonkatie/">Linkedin: kecoston</a></li>
+                <li><a href="https://github.com/kecoston">Github: kecoston</a></li>
+            </ul>
             </div>
 
 
         )
     }
 }
+
+export default Contact
