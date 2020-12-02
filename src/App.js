@@ -1,11 +1,12 @@
 import React from 'react'
+import Navbar from './components/Nav'
+import Project from './components/Project/Project'
 
 function App() {
   return (
-    
-    <div>
-      <p>Hi!</p>
-    </div>
+    <Navbar></Navbar>,
+    <Project></Project>
+
   );
 }
 
