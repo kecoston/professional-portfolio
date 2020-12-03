@@ -1,11 +1,17 @@
 import react from 'React'
 import Project from './Project/Project'
+import API from "../../../utils/API"
 
-class ProjectContainer extends React.Component {
-    render () {
+function Projects() {
+  
+    useEffect (() => {
+        loadProjects()
+    }, [])
+
+    
         return (
 
         
         )
-    }
+
 }
