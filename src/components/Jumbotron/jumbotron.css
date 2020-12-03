@@ -38,3 +38,19 @@ h1 {
     background-color: darkgray;
     height: 50px;
 }
+
+
+@media only screen and (max-width: 992px) {
+    #italic-header{
+        font-style: italic;
+        font-size: 50px;
+        color: white;
+        text-shadow: 2px 2px #000000;
+        background-color: black;
+        line-height: 2em;
+        position: relative;
+        top: -225px;
+    
+    }
+
+}
