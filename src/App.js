@@ -1,6 +1,6 @@
 import React from 'react'
 import Navigation from './components/Navigation/Navigation'
-import Project from './components/Project/Project'
+import ProjectContainer from './components/ProjectContaner/ProjectContainer'
 import Contact from './components/Contact/Contact'
 import Jumbotron from "./components/Jumbotron/Jumbotron"
 
@@ -13,7 +13,7 @@ function App() {
       <Jumbotron></Jumbotron>
       <Navigation></Navigation>
     
-      <Project></Project>
+      <ProjectContainer></ProjectContainer>
       </div>
       <Contact className="footer"></Contact>
      
