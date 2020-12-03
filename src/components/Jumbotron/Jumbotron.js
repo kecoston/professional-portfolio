@@ -1,17 +1,17 @@
-import React, { Component } from 'react'
+import React from 'react'
 import './jumbotron.css'
 
-class Jumbotron extends React.Component {
-    render() {
-        return (
-            <div className="jumbotron text-center">
-                <img src="./assets/images/jumbotron-image.jpg" class="img-fluid jumbo" alt="Responsive image"></img>
-                <h1>KATHRYN SHERAZI
+function Jumbotron() {
+
+    return (
+        <div className="jumbotron text-center">
+            <img src="./assets/images/jumbotron-image.jpg" className="img-fluid jumbo" alt="header"></img>
+            <h1>KATHRYN SHERAZI
                 <br></br>
                 <span id="italic-header">DESIGN THROUGH CONNECTION</span></h1>
-            </div>
-        )
-    }
+        </div>
+    )
+
 }
 
 export default Jumbotron

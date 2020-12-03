@@ -1,10 +1,10 @@
-import React, {Component} from 'react'
+import React from 'react'
 import "./contact.css"
 
 
 
-class Contact extends React.Component {
-    render () {
+function Contact() {
+   
         return (
 
             <div className="container contact-background">
@@ -18,7 +18,7 @@ class Contact extends React.Component {
 
 
         )
-    }
+
 }
 
 export default Contact

@@ -26,12 +26,6 @@ const projectSeed = [
       deployedHref: "https://powerful-woodland-53250.herokuapp.com/"
   },
   {
-      name: "Budget Tracker",
-      description:"This is a Budget Tracker application that has offline access. The user will be able to add expenses and deposits to their budget with or without connection. When entering transactions offline, they populate the total when brought back online.",
-      repoHref: "https://github.com/kecoston/budget_tracker",
-      deployedHref: "https://powerful-woodland-53250.herokuapp.com/"
-  },
-  {
     name: "Note Taker",
     description:"This app allows you to create, store, and delete apps",
     repoHref: "https://github.com/kecoston/take-note",
