@@ -1,6 +1,8 @@
-import React from 'react'
+import React, {Component} from 'react'
+import "./navigation.css"
 
-function Navbar() {
+class Navigation extends React.Component {
+    render() {
     return (
     <nav>
         <ul>
@@ -24,5 +26,6 @@ function Navbar() {
 
     )
 }
+}
 
-export default Navbar
+export default Navigation

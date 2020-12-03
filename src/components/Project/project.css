@@ -1,5 +1,7 @@
 /* Container holding the image and the text */
-
+div {
+    font-family: 'PT Sans', sans-serif;
+}
 div.box {
     padding: 0px;
     margin-right: 0px;
