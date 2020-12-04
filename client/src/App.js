@@ -2,6 +2,7 @@ import React from 'react'
 import ProjectContainer from './components/ProjectContaner/ProjectContainer'
 import Contact from './components/Contact/Contact'
 import Jumbotron from "./components/Jumbotron/Jumbotron"
+import About from "./components/About/About"
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <div className="content-wrapper">
 
       <Jumbotron></Jumbotron>
+      <About></About>
       <ProjectContainer></ProjectContainer>
       
       </div>

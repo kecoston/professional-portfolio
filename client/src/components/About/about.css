@@ -1,0 +1,86 @@
+.aboutMe {
+    font-family: 'PT Sans', sans-serif;
+    background-color: darkgray;
+    align-content: center;
+}
+
+.portrait {
+    position: relative;
+    z-index: 4;    
+    left: -550px;
+    top: 300px;
+}
+
+.about-p {
+    font-size: 14px;
+    color: white;
+    text-align: left;
+    line-height: 2em;
+    padding: 70px;
+}
+
+
+.about-h {
+    top: 20px;
+    font-style: italic;
+    text-transform: uppercase;
+    background-color: transparent;
+
+}
+
+.about-container {
+    position: relative;
+    left: 17%;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    
+    .portrait {
+        position: relative;
+        z-index: 4;    
+        left: -475px;
+        top: 300px;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+    
+    .portrait {
+        position: relative;
+        z-index: 4;    
+        left: -350px;
+        top: 300px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .portrait {
+        position: relative;
+        z-index: 4;    
+        left: -275px;
+        top: 300px;
+    }
+
+}
+
+@media only screen and (max-width: 545px) {
+    
+    .portrait {
+        position: relative;
+        z-index: 4; 
+        top: 40px;
+        left: 10px;
+
+       
+    }
+
+    .about-container {
+        position: relative;
+        left: 0px;
+    }
+
+}
