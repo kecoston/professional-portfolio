@@ -3,6 +3,7 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   # Description: 
+  
     This site is a practice in React JS. The goal of the assignment was to make a professional website in React. 
   
   # Table of Contents:
