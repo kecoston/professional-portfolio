@@ -1,49 +1,24 @@
+#Professional Portfolio
 
-  # Project: Employee Directory
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<img width="85%" src="homescreen.png" alt="first view of site">
 
-  # Description: 
-    This site is a practice in React JS. The goal of the assignment was to make a professional website in React. 
-  
-  # Table of Contents:
-  
-  * [Title](#Project)
-  * [Description](#Description)
-  * [Installation](#Installation) 
-  * [Usage](#User-Story)
-  * [What is Next](#What-is-Next)
-  * [What I learned](#What-I-Learned) 
-  * [Questions](#Questions)
-  * [Useful Links](#Useful-Links)
-  
-  ![homepage](public/assets/images/kathryn-sherazi-portfolio.png)
+##Objective of this Project 
 
-  # Installation 
-  This is an ReactJS app and uses bootstrap, react, react-dom, and react-scripts
+This project will act as my professional portfolio, which will contain the projects and assignments created throughout the UTA coding Bootcamp. I have also included several projects that I have done as a graphic designer in the past. The site is a single page divided into three major parts. It has an opening that quickly directs the user to the projects they would like to view. I have divided both web development and graphic design into categories. When the user selects the grouping they'd like to view, they appear in the same layer. 
 
-  # User-Story 
-  The layout of this page is very simple. There is no necessary steps needed to launch the app. Please follow the link below. When opening the deployed link, you will view and introduction of the site with an about section. If the user scrolls down further, they will discover a list of project and assignment examples
+<img src="portfolio-projects.png" alt="project layout">
 
-  ![role-search](public/assets/images/kathryn-sherazi-portfolio-2.png)
+##What did I Learn
 
-  # What is Next 
-  Moving forward I would like to explore position in React. I believe this is an area I could improve in. I would also like to add more projects and possibly some more annimation to the elements to make the site a bit more dynamic.
+I was a little too excited to dive into jquery for the functionality of this site. After problem-solving through some code, I realized it was best to keep some elements as html and css. For the first time, I worked with the toggle(), hide(), and show() methods in jquery. This was also the first time I put together a group of objects and pulled from them using a loop. 
 
-  # What I learned 
-  This assignment was a great opportunity to explore React. I really used it as an opportunity to add and remove elements to see how I can work with them. Through this I have been able to see what areas of creating a react site, require more attention. I also learned a lot about the necessary file structure and a window into the files that are previded with the react template, and what they do.
+<img src="specialties-classification.png" alt="classifications of projects">
 
+##What is the Next Step
 
-  # Questions 
-  Github Username: kecoston If you have any question, you can email me at: kecoston@gmail.com
+I need to resolve several issues with the site. It is currently not mobile responsive. I believe there is an issue with the layer positioning. When the site is not in full screen or shrunk down, the divs shift out of order. Currently, I have only one category working under html and css. I am looking forward to completing the other categories. I would also like the button to show in the active state. After seeing the cards come to life, I am unsure how I would like to display everything, I will be exploring bootstraps media-list next. Lastly, while I am very excited about the video at the top of the page, this layer needs some work; it seems to stretch the length of the page. 
 
-  # Useful Links
+##Links 
 
-  GitHub Repository: https://github.com/kecoston/professional-portfolio
-  
-  Deployed Link: https://kecoston.github.io/professional-portfolio/
-
-  # Licensing 
-
-  Employee Directory  Copyright (C) 2020 kecoston
-
-  
+git repository: https://github.com/kecoston/professional-portfolio
+live site: https://kecoston.github.io/professional-portfolio/
