@@ -2,7 +2,26 @@
 
 <img width="85%" src="homescreen.png" alt="first view of site">
 
+<<<<<<< HEAD
 ##Objective of this Project 
+=======
+  # Description: 
+  
+    This site is a practice in React JS. The goal of the assignment was to make a professional website in React. 
+  
+  # Table of Contents:
+  
+  * [Title](#Project)
+  * [Description](#Description)
+  * [Installation](#Installation) 
+  * [Usage](#User-Story)
+  * [What is Next](#What-is-Next)
+  * [What I learned](#What-I-Learned) 
+  * [Questions](#Questions)
+  * [Useful Links](#Useful-Links)
+  
+  ![homepage](public/assets/images/kathryn-sherazi-portfolio.png)
+>>>>>>> e99a6ff8cd0bdc5dddf384cd4592b6754328d420
 
 This project will act as my professional portfolio, which will contain the projects and assignments created throughout the UTA coding Bootcamp. I have also included several projects that I have done as a graphic designer in the past. The site is a single page divided into three major parts. It has an opening that quickly directs the user to the projects they would like to view. I have divided both web development and graphic design into categories. When the user selects the grouping they'd like to view, they appear in the same layer. 
 
