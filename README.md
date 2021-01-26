@@ -1,4 +1,4 @@
-#Professional Portfolio
+# Professional Portfolio
 
 <img width="85%" src="homescreen.png" alt="first view of site">
 
@@ -17,8 +17,6 @@
   * [Questions](#Questions)
   * [Useful Links](#Useful-Links)
   
-  ![homepage](public/assets/images/kathryn-sherazi-portfolio.png)
-
 
 This project will act as my professional portfolio, which will contain the projects and assignments created throughout the UTA coding Bootcamp. I have also included several projects that I have done as a graphic designer in the past. The site is a single page divided into three major parts. It has an opening that quickly directs the user to the projects they would like to view. I have divided both web development and graphic design into categories. When the user selects the grouping they'd like to view, they appear in the same layer. 
 
