@@ -5,9 +5,11 @@ container {
     position: absolute;
 }
 
-.row{
-    width: 100%;
-    align-content: center;
+header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 ul {
@@ -17,10 +19,7 @@ ul {
     margin-left: -40px;
 }
 
-#menu {
-    position: relative;
-    z-index: 4;
-}
+
 
 h1 {
     font-family: 'Raleway', sans-serif;
@@ -29,16 +28,16 @@ h1 {
     font-kerning: normal;
     text-transform: uppercase;
     margin-top: -30px;
-    position: relative;
-    z-index: 3;
 }
 
-navigation{
-    position: absolute;
+navigation {
     z-index: 3;
-    justify-content: center;
+    position: absolute;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
 
  
@@ -51,42 +50,21 @@ h2 {
 }
 
 #logo{
-    margin-top: 150px;
-    margin-left: 65px;
     height: 275px;
     width: 220px;
     text-shadow: 100px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-
 }
 
-/* #links {
-    margin-top: 20px;
-    position: relative;
-    z-index: 3;
-    width: 300px;
-} */
 
-header {
-    height: 800px;
-    width: 1005;
-}
 /* video  */
 video {
-    position: relative;
-    left: 0;
-    right: 0;
-    bottom: 0;
     width: 100%;
     height: auto;
-    order: 1;
-    z-index: 1;
     opacity: 65%;
-    background-repeat: repeat;
-    display: flex;
-    justify-content: center;
+    background-repeat: no-repeat;
+    z-index: 0;
+    position: absolute;
+    top: 0;
 
 }
   
@@ -128,12 +106,10 @@ a.button2:hover {
     height: auto;
     max-width: 100%;
     background-color: White;
-    z-index: 1;
-   
+    z-index: 1;   
 }
 
 #bio-container{
-position: relative;
 justify-content: center;
 padding: 20px;
 z-index: 10;
@@ -258,6 +234,7 @@ a.button3:active {
     z-index: 3;
 
 } 
+
 #graphic-design h2 {
     font-family: 'Raleway', sans-serif;
     font-style: italic;
@@ -271,6 +248,7 @@ a.button3:active {
     justify-content: center;
     margin-top: 100px;
 }
+
 @media only screen and (max-width: 1319px) {
     #katies-pic {
         max-width: 400px;
@@ -284,13 +262,7 @@ a.button3:active {
 
 }
 
-@media only screen and (max-width: 1119px) {
-    h2 {
-        margin-top: -50px;
-        font-size: 50px;
-    }
-  
-}
+
 @media only screen and (max-width: 767px) {
     #bio-content {
         margin-left: 70px
