@@ -63,7 +63,7 @@ video {
     opacity: 65%;
     background-repeat: no-repeat;
     z-index: 0;
-    position: absolute;
+    position: relative;
     top: 0;
 
 }
