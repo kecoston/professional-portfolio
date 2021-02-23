@@ -16,7 +16,6 @@ ul {
     list-style-type: none;
     font-style: italic;
     size: 20px;
-    margin-left: -40px;
 }
 
 
@@ -54,8 +53,11 @@ h2 {
 h3 {
     font-family: 'Raleway', sans-serif;
     color: black;
-    font-style: italic;
-    margin: 5px;
+    margin: 15px;
+}
+
+p{
+    margin: 15px;
 }
 
 #logo{
@@ -64,6 +66,10 @@ h3 {
     text-shadow: 100px;
 }
 
+.hideme
+{
+    opacity:0;
+}
 
 
 /* video  */
@@ -78,20 +84,36 @@ video {
     object-fit: fill;
 
 }
-  
+
+#introduction {
+    padding: 25px;
+    /* border: 0.16em solid; */
+    /* border-color: #438d6c; */
+    margin: 30px 200px 50px 200px;
+    box-sizing: border-box;
+    font-style: italic;
+    font-weight: 900;
+    font-size: large;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    display: block;
+    /* background-color: whitesmoke; */
+    opacity: 80%;
+}
 
 /* Navigation buttons */
 a.button2 {
     padding: 0.5em 3em;
     border: 0.16em solid;
-    border-color: #6ac4c1;
+    border-color: #438d6c;
     margin: 0 0.3em 0.3em 0;
     box-sizing: border-box;
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     font-weight: bolder;
-    color: #6ac4c1;
+    color: #438d6c;
     text-align: center;
     transition: all 0.15s;
     display: block;
@@ -267,11 +289,26 @@ a.button3:active {
     display: flex;
     flex-direction: column;
     padding: 20px;  
-    margin: 50px;
+    margin: 50px 200px 50px 200px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 
 }
+
+.floating {   
+    animation-name: floating; 
+    animation-duration: 3s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out; 
+    margin-left: 30px; 
+    margin-top: 5px; 
+} 
+  
+@keyframes floating { 
+    0% { transform: translate(0,  0px); } 
+    50%  { transform: translate(0, 15px); } 
+    100%   { transform: translate(0, -0px); }     
+} 
 
 .major-p-img {
     height: 250px;
@@ -332,7 +369,7 @@ a.button3:active {
         list-style-type: none;
         font-style: italic;
         size: 20px;
-        margin-left: -20px;
+        margin: 20px;
     }
 
   }
