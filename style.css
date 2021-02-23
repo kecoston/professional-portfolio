@@ -41,7 +41,6 @@ navigation {
     
 }
 
- 
 
 h2 {
     font-family: 'Raleway', sans-serif;
@@ -52,12 +51,15 @@ h2 {
 
 h3 {
     font-family: 'Raleway', sans-serif;
-    color: black;
+    color: white;
     margin: 15px;
 }
 
+
 p{
     margin: 15px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
 }
 
 #logo{
@@ -150,6 +152,7 @@ z-index: 10;
 
 #bio {
     width: 80%;
+    color: black;
 }
 
 #bio-content{
@@ -282,7 +285,6 @@ a.button3:active {
 }
 
 .major-projects {
-    background-color: white;
     color: black;
     display: flex;
     height: auto;
@@ -290,7 +292,6 @@ a.button3:active {
     flex-direction: column;
     padding: 20px;  
     margin: 50px 200px 50px 200px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 
 }
@@ -313,6 +314,8 @@ a.button3:active {
 .major-p-img {
     height: 250px;
     object-fit: cover;
+    margin-top: 20px;
+
 }
 
 .btns {
@@ -320,7 +323,7 @@ a.button3:active {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-end;
-    margin:10px;
+    margin:20px;
 }
 
 .btn {
