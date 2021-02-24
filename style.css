@@ -188,9 +188,9 @@ z-index: 10;
 
 
 a.button3:hover {
-    background-color: #5c9689;
+    background-color:white;
     background-image: none;
-    color: white;
+    color: #5c9689;
     text-decoration: none;
 }
 
@@ -200,6 +200,13 @@ a.button3:active {
     background-color:  #5c9689;
     color: white;
 
+}
+
+a.button3:current {
+    background-color:white;
+    background-image: none;
+    color: #5c9689;
+    text-decoration: none;
 }
 
 
@@ -231,22 +238,30 @@ a.button3:active {
 
 }
 
-#web-examples{
+#html-examples{
     position: relative;
-    height: 700px;
+    height: auto;
     width: 100%;
     margin-top: 45px;
     margin-left: 0px;
-    background-color:  #5c9689;
+    background-color:  whitesmoke;
 }
 
 .card {
-    background-color: white;
-    height: 545px;
+    background-color: whitesmoke;
+    height: auto;
     padding: 10px;
+    margin: 30px;
     font-family: 'Raleway', sans-serif;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 
+}
+
+.card-img-top {
+    background-color: whitesmoke;
+    width: 65px;
+    align-self: center;
+    margin: 30px;
 }
 
 .card-title {
@@ -315,7 +330,6 @@ a.button3:active {
     height: 250px;
     object-fit: cover;
     margin-top: 20px;
-
 }
 
 .btns {
