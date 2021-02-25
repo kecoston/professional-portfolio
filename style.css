@@ -250,6 +250,11 @@ a.button3:current {
     width: 100%;
     margin-top: 45px;
     margin-left: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: center;
+    justify-content: center;
 }
 
 /* Project examples styling */
@@ -280,13 +285,17 @@ a.button3:current {
 
 .example-descript {
     position: absolute;
-    top: 200px;
+    margin-top: 80px;
     color: white;
     font-weight: 900;
     width: 275px;
     text-transform: uppercase;
     text-align: center;
    
+}
+
+.example-title {
+    position:absolute
 }
 /* 
 
