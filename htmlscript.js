@@ -34,15 +34,14 @@ var htmlCssProjects = [
 for (var i = 0; i < htmlCssProjects.length; i++) {
 
 var projectCard = htmlCssProjects[i]
-console.log(projectCard)
-console.log(projectCard.imageUrl)
+
 
 var example = $("<article>");
 var title = $("<h3>");
 var background = $("<img>");
 var exampleDescription = $("<p>");
-var live = $("<button>");
-var git = $("<button>");
+var live = $("<a>");
+var git = $("<a>");
 
 example.addClass("example")
 title.addClass("example-title")
@@ -58,9 +57,9 @@ git.text("GitHub Repository")
 background.attr("src", projectCard.imageUrl)
 title.text(projectCard.projectName)
 exampleDescription.text(projectCard.description)
-live.attr("href", projectCard.liveSite)
+live.attr("href", projectCard.liveSite).attr('target','_blank')
 
-git.attr("href", projectCard.gitHub)
+git.attr("href", projectCard.gitHub).attr('target','_blank')
 
 
 example.append(background, title, exampleDescription, live, git)
@@ -70,8 +69,10 @@ $("#html-examples").append(example)
 
 $("#html-examples").hide();
 
+   
 $("#html-css-btn").on("click", function(event) {
    console.log("is this working")
     $("#html-examples").toggle("slide");
 
 });
+
