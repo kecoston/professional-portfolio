@@ -1,6 +1,5 @@
 # Professional Portfolio
 
-<img width="85%" src="homescreen.png" alt="first view of site">
 
   # Description: 
   
