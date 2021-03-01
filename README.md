@@ -11,13 +11,9 @@
   * [Title](#Project)
   * [Description](#Description)
   * [Installation](#Installation) 
-  * [Usage](#User-Story)
   * [What is Next](#What-is-Next)
-  * [What I learned](#What-I-Learned) 
   * [Questions](#Questions)
   * [Useful Links](#Useful-Links)
-  
-
 
 <img src="public/images/background-images/website-load.png" alt="header">
 
