@@ -3,70 +3,70 @@
 // Javascript Examples 
 var jSProjects = [
     {   projectName: "Employee Directory",
-        imageUrl:"images/portfolio-img/employee-directory.jpg",
+        imageUrl:"assets/images/portfolio-img/employee-directory.jpg",
         description: "HTML, CSS, Javascript, React.Js, & Bootstrap",
         liveSite: "https://kecoston.github.io/employee-directory/",
         gitHub: "https://github.com/kecoston/employee-directory"
     },
     {
         projectName:"Budget Tracker",
-        imageUrl: "images/portfolio-img/budget-tracker.jpg", 
+        imageUrl: "assets/images/portfolio-img/budget-tracker.jpg", 
         description: "HTML, CSS, Javascript, Express, Lite-server Mongoose, Morgan, & Heroku",
         liveSite: "https://powerful-woodland-53250.herokuapp.com/",
         gitHub: "https://github.com/kecoston/budget_tracker"
     },
     {
         projectName:"Workout Tracker",
-        imageUrl: "images/portfolio-img/workout-tracker.jpg", 
+        imageUrl: "assets/images/portfolio-img/workout-tracker.jpg", 
         description: "HTML, CSS, Javascript, Express, Mongoose, Morgan, Path, & Router",
         liveSite: "https://guarded-thicket-11070.herokuapp.com/",
         gitHub: "https://github.com/kecoston/workout-tracker"
     },
     {
         projectName:"Relay",
-        imageUrl: "images/portfolio-img/relay.jpg", 
+        imageUrl: "assets/images/portfolio-img/relay.jpg", 
         description: "HTML, CSS, Material-UI, React.js, Passport.js, bcrypt, Mongoose, Express.js, and Vonage API",
         liveSite: "https://relay-app-2020.herokuapp.com/",
         gitHub: "https://github.com/kecoston/relay"
     }, 
     {
         projectName:"Moodii",
-        imageUrl: "images/portfolio-img/moodii-project.jpg", 
+        imageUrl: "assets/images/portfolio-img/moodii-project.jpg", 
         description: " HTML, CSS, Bulma, Google Fonts, The MovieDatabase API, & JQuery",
         liveSite: "https://fullstackzack.github.io/moodii/",
         gitHub: "https://github.com/FullStackZack/moodii"
     },
     {
         projectName:"Esthete Gallery",
-        imageUrl: "images/portfolio-img/gallery.jpg", 
+        imageUrl: "assets/images/portfolio-img/gallery.jpg", 
         description: "HTML, CSS, MySQL, Sequelize, Passport.js, Bycryptjs, Cloudinary, Dotenv, Heroku and Express",
         liveSite: "https://esthetegallery.herokuapp.com/",
         gitHub: "https://github.com/Sumayyahm/Project2"
     },
     {
         projectName:"Employee Database",
-        imageUrl: "images/portfolio-img/employee-database.jpg", 
+        imageUrl: "assets/images/portfolio-img/employee-database.jpg", 
         description: "Javascript, MySQL, Node.js, & Express",
         liveSite: "https://github.com/kecoston/employee-database",
         gitHub: "https://github.com/kecoston/employee-database"
     },
     {
         projectName:"Note Pad",
-        imageUrl: "images/portfolio-img/take-note.jpg", 
+        imageUrl: "assets/images/portfolio-img/take-note.jpg", 
         description: "HTML, CSS, Javascript, Express, FS, & Path",
         liveSite: "https://stark-dawn-96998.herokuapp.com/",
         gitHub: "https://github.com/kecoston/take-note"
     },
     {
         projectName:"Staff Enrollment",
-        imageUrl: "images/portfolio-img/staff.jpg", 
+        imageUrl: "assets/images/portfolio-img/staff.jpg", 
         description: "Javascript, Node.js, Inquirer, Path, FS, and Util",
         liveSite: "https://github.com/kecoston/staff-enrollment",
         gitHub: "https://github.com/kecoston/staff-enrollment"
     },
     {
         projectName:"Generate Read.Me",
-        imageUrl: "images/portfolio-img/readme.jpg", 
+        imageUrl: "assets/images/portfolio-img/readme.jpg", 
         description: "Javascript, Node.js, Init, Util, and Inquirer",
         liveSite: "https://github.com/kecoston/generate-readme",
         gitHub: "https://github.com/kecoston/generate-readme"

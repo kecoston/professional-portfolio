@@ -4,14 +4,14 @@
 var reactProjects = [
     {
         projectName:"Employee Database",
-        imageUrl: "images/portfolio-img/employee-database.jpg", 
+        imageUrl: "assets/images/portfolio-img/employee-database.jpg", 
         description: "Javascript, MySQL, Node.js, & Express",
         liveSite: "https://github.com/kecoston/employee-database",
         gitHub: "https://github.com/kecoston/employee-database"
     },
     {
         projectName:"Relay",
-        imageUrl: "images/portfolio-img/relay.jpg", 
+        imageUrl: "assets/images/portfolio-img/relay.jpg", 
         description: "HTML, CSS, Material-UI, React.js, Passport.js, bcrypt, Mongoose, Express.js, and Vonage API",
         liveSite: "https://relay-app-2020.herokuapp.com/",
         gitHub: "https://github.com/kecoston/relay"

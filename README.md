@@ -15,19 +15,19 @@
   * [Questions](#Questions)
   * [Useful Links](#Useful-Links)
 
-<img src="public/images/background-images/website-load.png" alt="header">
+<img src="assets/images/background-images/website-load.png" alt="header">
 
 # What did I Learn
 
 I was a little too excited to dive into jquery for the functionality of this site. After problem-solving through some code, I realized it was best to keep some elements as html and css. For the first time, I worked with the toggle(), hide(), and show() methods in jquery. This was also the first time I put together a group of objects and pulled from them using a loop. 
 
-<img src="public/images/background-images/website-bio.jpg" alt="bio">
+<img src="assets/images/background-images/website-bio.jpg" alt="bio">
 
 # What is the Next Step
 
 For the next step I will be working on added projects from my graphic design career.
 
-<img src="public/images/background-images/website-projects.jpg" alt="classifications of projects">
+<img src="assets/images/background-images/website-projects.jpg" alt="classifications of projects">
 
 # Links 
 

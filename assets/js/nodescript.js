@@ -4,21 +4,21 @@
 var nodeProjects = [
     {
         projectName:"Staff Enrollment",
-        imageUrl: "images/portfolio-img/staff.jpg", 
+        imageUrl: "assets/images/portfolio-img/staff.jpg", 
         description: "Javascript, Node.js, Inquirer, Path, FS, and Util",
         liveSite: "https://github.com/kecoston/staff-enrollment",
         gitHub: "https://github.com/kecoston/staff-enrollment"
     },
     {
         projectName:"Generate Read.Me",
-        imageUrl: "images/portfolio-img/readme.jpg", 
+        imageUrl: "assets/images/portfolio-img/readme.jpg", 
         description: "Javascript, Node.js, Init, Util, and Inquirer",
         liveSite: "https://github.com/kecoston/generate-readme",
         gitHub: "https://github.com/kecoston/generate-readme"
     },
     {
         projectName:"Employee Database",
-        imageUrl: "images/portfolio-img/employee-database.jpg", 
+        imageUrl: "assets/images/portfolio-img/employee-database.jpg", 
         description: "Javascript, MySQL, Node.js, & Express",
         liveSite: "https://github.com/kecoston/employee-database",
         gitHub: "https://github.com/kecoston/employee-database"

@@ -3,28 +3,28 @@
 // Html CSS Examples 
 var htmlCssProjects = [
     {   projectName: "Horiseon",
-        imageUrl:"images/portfolio-img/horiseon-cover.jpg",
+        imageUrl:"assets/images/portfolio-img/horiseon-cover.jpg",
         description: "HTML & CSS",
         liveSite: "https://kecoston.github.io/Horiseon-Homepage/",
         gitHub: "https://github.com/kecoston/"
     },
     {
         projectName:"Generate Password",
-        imageUrl: "images/portfolio-img/generate-password.jpg", 
+        imageUrl: "assets/images/portfolio-img/generate-password.jpg", 
         description: "HTML, CSS, Google Fonts, & Javascript",
         liveSite: "https://kecoston.github.io/generate-password/",
         gitHub: "https://github.com/kecoston/generate-password"
     },
     {
         projectName:"Moodii",
-        imageUrl: "images/portfolio-img/moodii-project.jpg", 
+        imageUrl: "assets/images/portfolio-img/moodii-project.jpg", 
         description: " HTML, CSS, Bulma, Google Fonts, The MovieDatabase API, & JQuery",
         liveSite: "https://fullstackzack.github.io/moodii/",
         gitHub: "https://github.com/FullStackZack/moodii"
     },
     {
         projectName:"Relay",
-        imageUrl: "images/portfolio-img/relay.jpg", 
+        imageUrl: "assets/images/portfolio-img/relay.jpg", 
         description: "HTML, CSS, Material-UI, React.js, Passport.js, bcrypt, Mongoose, Express.js, and Vonage API",
         liveSite: "https://relay-app-2020.herokuapp.com/",
         gitHub: "https://github.com/kecoston/relay"
